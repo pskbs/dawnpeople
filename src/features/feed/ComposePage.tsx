@@ -130,6 +130,7 @@ export function ComposePage() {
         </div>
       </div>
 
+      <p className="create-safety">{FEED_COPY.contentGuide}</p>
       {error && <p className="error-text">{error}</p>}
     </form>
   )

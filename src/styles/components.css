@@ -667,6 +667,15 @@ textarea::placeholder {
   margin: 0;
 }
 
+/* 글쓰기 화면 공용 — 콘텐츠 가드레일 등 작은 안내 캡션 (수다방·소모임 공용) */
+.create-safety {
+  padding: 0 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-sub);
+  word-break: keep-all;
+}
+
 /* 글·벙개 상세 하단 배너 광고(앱인토스 전용, 스크롤 가능한 화면에만 배치) */
 .banner-ad {
   width: 100%;

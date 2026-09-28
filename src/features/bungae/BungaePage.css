@@ -328,14 +328,6 @@
   padding-bottom: 72px;
 }
 
-.create-safety {
-  padding: 0 8px;
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--text-sub);
-  word-break: keep-all;
-}
-
 .create-form {
   display: flex;
   flex-direction: column;

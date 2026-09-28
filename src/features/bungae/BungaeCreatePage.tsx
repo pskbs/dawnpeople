@@ -232,6 +232,7 @@ export function BungaeCreatePage() {
       </div>
 
       <p className="create-safety">{BUNGAE_COPY.safetyNotice}</p>
+      <p className="create-safety">{BUNGAE_COPY.moderationNotice}</p>
 
       <div className="bottom-bar">
         <button type="button" className="pill-button pill-button--block" disabled={!canSubmit} onClick={handleSubmit}>
